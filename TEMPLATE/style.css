@@ -1,0 +1,38 @@
+body, html {
+  margin: 50px;
+}
+
+.row {
+  border: solid 5px red;
+  padding: 30px;
+}
+
+.row p {
+  margin: 20px;
+}
+
+.levo img {
+  height: 300px;
+  width: 100%;
+}
+
+.desno p {
+  border: solid 2px blue;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.desno p:hover {
+  background-color: #7e7ee9;
+  color: white;
+}
+
+.dugme button {
+  background-color: rebeccapurple;
+  color: white;
+  border-radius: 5px;
+  height: 50px;
+  width: 120px;
+  margin-left: 30px;
+}
+/*# sourceMappingURL=style.css.map */

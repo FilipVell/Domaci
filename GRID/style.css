@@ -1,0 +1,261 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-container > div {
+  
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  background-color: rgb(230, 70, 70);
+  height: 50px;
+  grid-row-gap: 0px !important;
+
+ 
+  
+}
+
+.item2{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  height: 500px;
+  width: 100%;
+  background-color: rgb(109, 109, 209);
+ 
+}
+
+.item3{
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background-color: rgb(93, 192, 93);
+  
+
+}
+
+.item4{
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background-color: rgb(93, 192, 93);
+
+}
+
+.item5{
+  grid-column-start: 3;
+  grid-column-end: 5;
+  background-color:rgb(163, 163, 32);
+}
+
+.item6{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  background-color: turquoise;
+  height: 200px;
+}
+
+.item7{
+  grid-column-start: 2;
+  grid-column-end: 4;
+  background-color: turquoise;
+}
+
+.item8{
+  background-color: turquoise;
+}
+
+.item9{
+     height: 50px;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    background-color: palevioletred
+    
+  
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+  .item3{
+    grid-column-start: 3;
+    grid-column-end: 5;
+  }
+  
+  .item4{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+  
+  
+  
+  .item5{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    height: 200px;
+    
+  }
+
+  .item6{
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  .item7{
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 3;
+    grid-column-end: 5;
+  }
+
+  .item8{
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    height: 200px;
+  }
+
+  .item9{
+      grid-row-start: 7;
+      grid-row-end: 8;
+      grid-column-start: 1;
+      grid-column-end: 5;
+    }
+  }
+
+  @media only screen and (max-width: 768px){
+
+    .item2{
+      grid-row-start: 2;
+      grid-row-end: 5;
+      grid-column-start: 1;
+      grid-column-end: 5;
+    }
+
+    .item5{
+      grid-row-start: 5;
+      grid-row-end: 6;
+      grid-column-start: 1;
+      grid-column-end: 5;
+    }
+
+    .item3{
+      grid-row-start: 7;
+      grid-row-end: 8;
+      grid-column-start: 1;
+      grid-column-end: 3;
+      height: 200px;
+      
+      
+    }
+    .item4{
+      grid-row-start: 7;
+      grid-row-end: 8;
+      grid-column-start: 3;
+      grid-column-end: 5;
+      height: 200px;
+      
+    }
+  
+
+  .item6{
+    grid-row-start: 8;
+    grid-row-end: 9;
+    grid-column-start: 1;
+      grid-column-end: 5;
+    
+  }
+
+  .item7{
+    grid-row-start: 9;
+    grid-row-end: 10;
+    grid-column-start: 1;
+      grid-column-end: 3;
+  }
+
+  .item8{
+    grid-row-start: 9;
+    grid-row-end: 10;
+    grid-column-start: 3;
+      grid-column-end: 5;
+
+  }
+
+  .item9{
+    grid-row-start: 10;
+    grid-row-end: 11;
+
+  }
+}
+
+
+@media only screen and (max-width: 375px){
+
+  .item5{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+      grid-column-end: 5;
+  }
+
+  .item3{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+      grid-column-end: 5;
+      height: 170px;
+  }
+
+  .item4{
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+      grid-column-end: 5;
+      height: 170px;
+  }
+
+  .item2{
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 1;
+      grid-column-end: 5;
+    height: 170px;
+  }
+
+  .item6{
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 1;
+      grid-column-end: 5;
+      height: 150px;
+  }
+  .item7{
+    grid-row-start: 7;
+    grid-row-end: 8;
+    grid-column-start: 1;
+      grid-column-end: 5;
+      height: 150px;
+  }
+
+  .item8{
+    grid-row-start: 9;
+    grid-row-end: 10;
+    grid-column-start: 1;
+      grid-column-end: 5;
+    height: 150px;
+  }
+}

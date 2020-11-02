@@ -1,0 +1,123 @@
+.ikona{
+    img{
+        width: 20px;
+        height: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        
+    }
+}
+
+.navbar{
+
+    li{
+        margin-left: 15px;
+        margin-right: 15px;
+        }
+        
+
+    
+     a{
+         color: #00B1FF !important;
+         font-weight: bold;
+         padding: 30px;
+     }
+     
+     .logo{
+         color: black !important;
+         font-weight: bold;
+         font-size: 30px;
+         padding: 0px;
+     }
+}
+
+
+.slika1{
+
+    height: 800px;
+    width: 100%;
+    background-color: #367AC6;
+
+    position: relative;
+
+    padding: 0px;
+    margin: 0px;
+
+    img{
+        height: 800px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        opacity: 0.27;
+    }
+
+    h1{
+
+        position: absolute;
+        top: 25%;
+        color: white;
+        padding: 100px;
+        text-transform: uppercase;
+    }
+}
+
+.desni{
+    height: 800px;
+    width: 100%;
+
+    img{
+
+        width: 100%;
+        height: 400px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        }
+
+.top{
+
+    img{
+        width: 50%;
+     }
+    }
+}
+
+
+.services{
+    padding: 0px 50px;
+    margin-top: 50px;
+
+    img{
+        height: 150px;
+        width: 150px;
+        padding: 20px;
+        border: solid 7px #A8CDEE;
+        box-shadow: -10px 23px 30px rgb(189, 175, 175);
+        border-radius: 20px;
+    }
+
+    h2{
+        margin-top: 25px;
+        padding: 10px;
+        color: #484848;
+    }
+}
+
+.footer{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(75, 73, 73);
+
+    p{
+        color: white;
+        text-align: center;
+        padding-top: 15px;
+    }
+  
+}
+
+
+
+
+
